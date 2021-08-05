@@ -1,0 +1,60 @@
+*{margin:0;padding:0;box-sizing: content-box;}
+
+body{
+    width: 90%;
+    margin:auto;
+    font-family: 'Source Code Pro', monospace;
+    background-image: url("https://i.pinimg.com/736x/14/42/04/144204bbc9b0963dddf3efb5e8b62162.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.container h1{
+    margin: 50px;
+}
+h1, h3{text-align: center;}
+
+#evento{
+    width: 500px;
+    padding: 5px
+}
+#fecha{
+    width: 130px;
+}
+button{
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    align-self: center;
+
+}
+
+
+
+
+
+/*Comienzo del contador*/
+.container h3{
+    margin:50px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+}
+
+li span{
+    font-size:3rem;
+
+    display: block;
+}
