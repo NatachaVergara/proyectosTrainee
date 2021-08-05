@@ -31,7 +31,7 @@ function generarEvento(){
         document.querySelector("#segundo").innerText = Math.floor((cuentaRegresiva % minuto) / segundo);
     })
     
-}
+};
 
 
 
